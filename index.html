@@ -1,1 +1,48 @@
-HTML will be added here!
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Make Space</title>
+  <!-- need to link css here-->
+</head>
+
+<body>
+  <canvas id="starfield"></canvas>
+
+  <main class="overlay">
+    <section class="stack">
+      <img class="logo" src="./logo.png" alt="Make Space" />
+
+      <div class="login-card">
+        <form id="login-form">
+          <div class="field">
+            <input type="text" placeholder="Digite seu usuário">
+          </div>
+
+          <div class="field">
+            <input type="password" placeholder="Digite sua senha">
+          </div>
+
+          <div class="actions">
+            <button class="btn" type="submit">Entrar</button>
+
+            <div class="divider">ou</div>
+
+            <button class="btn btn-google" type="button">
+              <span class="google-mark">G</span>
+              Entrar com Google
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <audio id="space-audio" loop>
+    <source src="./space-ambient.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- need to link js here -->
+</body>
+</html>
